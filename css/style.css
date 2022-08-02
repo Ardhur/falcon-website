@@ -130,6 +130,15 @@
         background-color: #0100019d;
         border-color: #0100019d;
       }
+      .fa-solid, .fa-brands {
+        color: #0100019d;
+      }
+      .nav-link.active { 
+        background-color: #c86c20 !important;
+      }
+      .nav-link.active .fa-solid,.nav-link.active .fa-brands {
+        color: white;
+      }
 
 
 

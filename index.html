@@ -13,6 +13,7 @@
 </head>
 
 <body>
+  <!-- header start -->
   <div class="container">
     <header
       class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
@@ -34,10 +35,12 @@
       </div>
     </header>
   </div>
-  <div class="d-flex flex-column flex-shrink-0 bg-white" style="width: 4.5rem;">
+  <!-- header end -->
+
+  <!-- sidebar start -->
+  <!-- <div class="d-flex flex-column flex-shrink-0 bg-white position-fixed" style="width: 4.5rem;">
     <a href="/" class="d-block p-3 link-dark text-decoration-none" title="Icon-only" data-bs-toggle="tooltip"
       data-bs-placement="right">
-      <!-- <img src="logo.png" alt="logo" style="text-align: center;" width="50px"> -->
       <span class="visually-hidden">Icon-only</span>
     </a>
     <ul class="nav nav-pills nav-flush flex-column mb-auto text-center">
@@ -72,9 +75,26 @@
         </a>
       </li>
     </ul>
+  </div> -->
+  <!-- sidebar end -->
+
+  <!-- hero start -->
+  <div class="px-4 py-5 my-5 text-center">
+    <img class="d-block mx-auto mb-4" src="img/logo.png" alt="" width="130">
+    <h1 class="display-5 fw-bold">FalconMC</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">FalconMC is an afk Minecraft server written in <a style="text-decoration:none;"
+          href="https://www.rust-lang.org/">Rust</a>
+        that aims to support all client versions
+        ranging from 1.13 till 1.17.1 (1.8-12.2 coming soon). Its main priority is performance and the ability to
+        effortlessly hold many players at once. <br> Writing custom plugins is supported.</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Documentation</button>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Github</button>
+      </div>
+    </div>
   </div>
-
-
+  <!-- hero end -->
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
