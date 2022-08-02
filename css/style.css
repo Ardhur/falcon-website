@@ -114,22 +114,9 @@
         -webkit-overflow-scrolling: touch;
       }
       .btn-secondary {
-        background-color: #0100019d;
-        border-color: #0100019d;
-      }
-
-
-
-      
-
-      .featuresBtn:hover {
         background-color: #c86c20;
         border-color: #c86c20;
       }
-
-
-
-
 
       .btn-secondary:hover {
         background-color: #495ef5;
@@ -143,6 +130,10 @@
       .btn-outline-secondary:hover {
         background-color: #0100019d;
         border-color: #0100019d;
+      }
+      .featuresBtn:hover {
+        border-color: #c86c20;
+        background-color: #c86c20;
       }
       .fa-solid, .fa-brands {
         color: #0100019d;
