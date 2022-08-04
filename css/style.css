@@ -1,3 +1,6 @@
+a {
+  text-decoration: none!important;
+}
 .form-control-dark {
   border-color: var(--bs-gray);
 }
