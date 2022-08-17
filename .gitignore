@@ -1,0 +1,3 @@
+# ignore config and default template
+config.php
+default.txt
