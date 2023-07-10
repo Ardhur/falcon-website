@@ -1,0 +1,173 @@
+main {
+  padding-bottom: 0px !important;
+}
+
+.container {
+  padding-top: 30px;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 10vh;
+}
+
+h1 {
+  margin: 0px;
+}
+
+.hero img {
+  padding: 60px 0 24px 0;
+}
+
+.buttons button {
+  width: 200px;
+  display: inline-block;
+}
+
+.github {
+  border-color: rgb(204, 133, 1);
+  color: rgb(204, 133, 1);
+}
+.github:hover {
+  background-color: rgb(204, 133, 1);
+  border-color: rgb(204, 133, 1);
+  color: white;
+}
+
+button,
+button:focus,
+button:active {
+  border-radius: 0.5rem;
+  box-shadow: none;
+}
+
+.box {
+  border: 1px solid #edab407c;
+  width: 30%;
+  border-radius: 10px;
+  margin-bottom: 45px;
+}
+
+.inner-box {
+  margin: 15px;
+}
+
+.git-title,
+.git-title a {
+  font-size: 18px;
+  color: #2f81f7;
+  padding-bottom: 6px;
+  text-decoration: none;
+}
+
+.git-title a:hover {
+  text-decoration: underline;
+}
+
+.git-desc,
+.git-footer {
+  font-size: 15px;
+  vertical-align: middle;
+}
+
+.git-desc {
+  padding-bottom: 4px;
+}
+
+svg {
+  width: 19px;
+  height: 19px;
+  fill: #7d8590;
+  vertical-align: middle;
+}
+span {
+  vertical-align: text-top;
+  padding-bottom: 3px;
+}
+.git-lang {
+  fill: #dea584;
+  height: 10px;
+  vertical-align: middle;
+}
+
+.git-repositories {
+  /* make all the boxes inline and responsive */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 0px;
+}
+
+hr {
+  margin: 10vh 0 10vh 0;
+}
+
+/* make the boxes go under eachother for responsiveness */
+@media screen and (max-width: 768px) {
+  .box {
+    width: 100%;
+  }
+}
+
+#dropdown:hover {
+  cursor: pointer;
+}
+
+a[role="button"]:hover,
+button:hover {
+  background-color: #136b88;
+  border-color: #136b88;
+}
+
+footer,
+footer a {
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 30px !important;
+  text-decoration: none;
+}
+
+footer a {
+    font-style: italic;
+}
+
+.why-falcon {
+  margin: 0;
+  text-align: center;
+}
+
+.f-title {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.f-desc {
+  font-size: 18px;
+  padding-inline: 15%;
+  margin: 0;
+  font-weight: 500;
+}
+
+.f-more, .f-more a {
+  font-size: 20px;
+  padding-top: 10px;
+  color: #EDAC40;
+  font-weight: 600;
+}
+
+.features {
+  margin: 10vh 0 10vh 0;
+}
+
+.f-more svg {
+  fill: #EDAC40 ;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+#performance-svg, #custom-plugins-svg, #multiversion-support-svg {
+  fill: #E0A33D ;
+  height: 70px;
+  width: 70px;
+  padding-bottom: 10px;
+}

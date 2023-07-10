@@ -1,15 +1,292 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/pico.min.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <meta name="author" content="Discord: ardhur" />
+    <title>in development</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-
-<body>
-
-</body>
-
+  <body>
+    <main class="container">
+      <nav>
+        <ul>
+          <img src="img/falcon-logo512x512.png" width="50px" />
+          <li><strong>FalconMC</strong></li>
+        </ul>
+        <ul>
+          <li><a class="contrast" href="#">Home</a></li>
+          <li><a class="contrast" href="#">Documentation</a></li>
+          <li role="list" dir="rtl">
+            <a class="contrast" href="#" aria-haspopup="listbox">About</a>
+            <ul id="dropdown" role="listbox">
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Discord</a></li>
+            </ul>
+          </li>
+          <li><a href="#" role="button">Go to Github</a></li>
+        </ul>
+      </nav>
+      <section class="hero">
+        <img src="img/falcon-logo512x512.png" alt="logo" width="150px" />
+        <h1>FalconMC</h1>
+        <p>
+          FalconMC is an afk Minecraft server written in Rust that aims to
+          support all client versions ranging from 1.13 till 1.17.1 (1.8-12.2
+          coming soon). Its main priority is performance and the ability to
+          effortlessly hold many players at once. <br />Writing custom plugins
+          is supported.
+        </p>
+        <div class="buttons">
+          <button>Documentation</button>
+          <button class="outline github">Github</button>
+        </div>
+      </section>
+      <hr />
+      <section class="git-repositories">
+        <div class="box">
+          <div class="inner-box">
+            <div class="git-title">
+              <svg
+                aria-hidden="true"
+                height="16"
+                viewBox="0 0 16 16"
+                version="1.1"
+                width="16"
+                data-view-component="true"
+                class="octicon octicon-repo mr-1 color-fg-muted"
+              >
+                <path
+                  d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"
+                ></path>
+              </svg>
+              <a href="#">FalconMC</a>
+            </div>
+            <div class="git-desc">
+              An elegant and multiversioned Minecraft server written in Rust!
+            </div>
+            <div class="git-footer">
+              <svg
+                class="git-lang"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+              >
+                <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
+              </svg>
+              Rust
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="inner-box">
+            <div class="git-title">
+              <svg
+                aria-hidden="true"
+                height="16"
+                viewBox="0 0 16 16"
+                version="1.1"
+                width="16"
+                data-view-component="true"
+                class="octicon octicon-repo mr-1 color-fg-muted"
+              >
+                <path
+                  d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"
+                ></path>
+              </svg>
+              <a href="#">FalconNest</a>
+            </div>
+            <div class="git-desc">
+              Build tool for FalconMC, used to "hatch" plugins
+            </div>
+            <div class="git-footer">
+              <svg
+                class="git-lang"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+              >
+                <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
+              </svg>
+              Rust
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="inner-box">
+            <div class="git-title">
+              <svg
+                aria-hidden="true"
+                height="16"
+                viewBox="0 0 16 16"
+                version="1.1"
+                width="16"
+                data-view-component="true"
+                class="octicon octicon-repo mr-1 color-fg-muted"
+              >
+                <path
+                  d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"
+                ></path>
+              </svg>
+              <a href="#">DataCompatMC</a>
+            </div>
+            <div class="git-desc">
+              A data compatibility project for Minecraft's assets
+            </div>
+            <div class="git-footer">
+              <svg
+                class="git-lang"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+              >
+                <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
+              </svg>
+              Rust
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="inner-box">
+            <div class="git-title">
+              <svg
+                aria-hidden="true"
+                height="16"
+                viewBox="0 0 16 16"
+                version="1.1"
+                width="16"
+                data-view-component="true"
+                class="octicon octicon-repo mr-1 color-fg-muted"
+              >
+                <path
+                  d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"
+                ></path>
+              </svg>
+              <a href="#">brigadier_rs</a>
+            </div>
+            <div class="git-desc">
+              Minecraft's command parsing library in Rust
+            </div>
+            <div class="git-footer">
+              <svg
+                class="git-lang"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+              >
+                <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
+              </svg>
+              Rust
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section class="why-falcon">
+        <h1 class="">Why choose FalconMC?</h1>
+        <div class="features">
+          <div class="performance">
+            <svg
+              id="performance-svg"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+            >
+              <path
+                d="M0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm320 96c0-26.9-16.5-49.9-40-59.3V88c0-13.3-10.7-24-24-24s-24 10.7-24 24V292.7c-23.5 9.5-40 32.5-40 59.3c0 35.3 28.7 64 64 64s64-28.7 64-64zM144 176a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm-16 80a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm288 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM400 144a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z"
+              />
+            </svg>
+            <h1 class="f-title">Performance</h1>
+            <h2 class="f-desc">
+              FalconMC is designed with performance in mind. Our Rust-based
+              codebase provides lightning-fast performance that allows the
+              server to effortlessly hold many players at once, without
+              sacrificing stability.
+            </h2>
+            <h3 class="f-more">
+              <a href="#"
+                >Tell me more<svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="1em"
+                  viewBox="0 0 448 512"
+                >
+                  <path
+                    d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"
+                  />
+                </svg>
+              </a>
+            </h3>
+          </div>
+          <hr />
+          <div class="custom-plugins">
+            <svg
+              id="custom-plugins-svg"
+              xmlns="http://www.w3.org/2000/svg"
+              height="1em"
+              viewBox="0 0 512 512"
+            >
+              <path
+                d="M192 104.8c0-9.2-5.8-17.3-13.2-22.8C167.2 73.3 160 61.3 160 48c0-26.5 28.7-48 64-48s64 21.5 64 48c0 13.3-7.2 25.3-18.8 34c-7.4 5.5-13.2 13.6-13.2 22.8v0c0 12.8 10.4 23.2 23.2 23.2H336c26.5 0 48 21.5 48 48v56.8c0 12.8 10.4 23.2 23.2 23.2v0c9.2 0 17.3-5.8 22.8-13.2c8.7-11.6 20.7-18.8 34-18.8c26.5 0 48 28.7 48 64s-21.5 64-48 64c-13.3 0-25.3-7.2-34-18.8c-5.5-7.4-13.6-13.2-22.8-13.2v0c-12.8 0-23.2 10.4-23.2 23.2V464c0 26.5-21.5 48-48 48H279.2c-12.8 0-23.2-10.4-23.2-23.2v0c0-9.2 5.8-17.3 13.2-22.8c11.6-8.7 18.8-20.7 18.8-34c0-26.5-28.7-48-64-48s-64 21.5-64 48c0 13.3 7.2 25.3 18.8 34c7.4 5.5 13.2 13.6 13.2 22.8v0c0 12.8-10.4 23.2-23.2 23.2H48c-26.5 0-48-21.5-48-48V343.2C0 330.4 10.4 320 23.2 320v0c9.2 0 17.3 5.8 22.8 13.2C54.7 344.8 66.7 352 80 352c26.5 0 48-28.7 48-64s-21.5-64-48-64c-13.3 0-25.3 7.2-34 18.8C40.5 250.2 32.4 256 23.2 256v0C10.4 256 0 245.6 0 232.8V176c0-26.5 21.5-48 48-48H168.8c12.8 0 23.2-10.4 23.2-23.2v0z"
+              />
+            </svg>
+            <h1 class="f-title">Custom plugins</h1>
+            <h2 class="f-desc">
+              FalconMC supports the creation of custom plugins, allowing server
+              owners to tailor their server to their specific needs. Whether you
+              need a plugin to protect your builds or add new gameplay
+              mechanics, FalconMC's plugin support has got you covered.
+            </h2>
+            <h3 class="f-more">
+              <a href="#"
+                >Tell me more<svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="1em"
+                  viewBox="0 0 448 512"
+                >
+                  <path
+                    d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"
+                  />
+                </svg>
+              </a>
+            </h3>
+          </div>
+          <hr />
+          <div class="multiversion-support">
+            <svg
+              id="multiversion-support-svg"
+              xmlns="http://www.w3.org/2000/svg"
+              height="1em"
+              viewBox="0 0 448 512"
+            >
+              <path
+                d="M439.55 236.05L244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"
+              />
+            </svg>
+            <h1 class="f-title">Multiversion support</h1>
+            <h2 class="f-desc">
+              FalconMC aims to support all client versions of Minecraft ranging
+              from 1.13 to 1.17.1 (with 1.8-1.12.2 coming eventually). Our goal
+              is to provide a seamless experience for players, no matter which
+              version they prefer to play on. With FalconMC, you won't have to
+              worry about leaving players behind on outdated versions.
+            </h2>
+            <h3 class="f-more">
+              <a href="#"
+                >Tell me more<svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="1em"
+                  viewBox="0 0 448 512"
+                >
+                  <path
+                    d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"
+                  />
+                </svg>
+              </a>
+            </h3>
+            <footer class="container">
+              designed by <a href="https://github.com/Ardhur">Ardhur</a> with
+              <a href="https://picocss.com/">pico</a>
+            </footer>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
