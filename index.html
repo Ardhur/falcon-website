@@ -13,20 +13,20 @@
     <main class="container">
       <nav>
         <ul>
-          <img src="img/falcon-logo512x512.png" width="50px" />
-          <li><strong>FalconMC</strong></li>
+          <a href="index.html"><img src="img/falcon-logo512x512.png" width="50px" /></a>
+          <a class="hyperlink-default" href="index.html"><li><strong>FalconMC</strong></li></a>
         </ul>
         <ul>
-          <li><a class="contrast" href="#">Home</a></li>
-          <li><a class="contrast" href="#">Documentation</a></li>
+          <li><a class="contrast" href="index.html">Home</a></li>
+          <li><a target="_blank" class="contrast" href="https://wiki.falconmc.org/">Documentation</a></li>
           <li role="list" dir="rtl">
             <a class="contrast" href="#" aria-haspopup="listbox">About</a>
             <ul id="dropdown" role="listbox">
-              <li><a href="#">Blog</a></li>
+              <li><a href="blog.html">Blog</a></li>
               <li><a href="#">Discord</a></li>
             </ul>
           </li>
-          <li><a href="#" role="button">Go to Github</a></li>
+          <li><a id="goGithub" href="#" role="button">Github</a></li>
         </ul>
       </nav>
       <section class="hero">
@@ -201,8 +201,7 @@
               sacrificing stability.
             </h2>
             <h3 class="f-more">
-              <a href="#"
-                >Tell me more<svg
+              <a href="#">Tell me more<svg
                   xmlns="http://www.w3.org/2000/svg"
                   height="1em"
                   viewBox="0 0 448 512"
@@ -280,13 +279,13 @@
                 </svg>
               </a>
             </h3>
-            <footer class="container">
-              designed by <a href="https://github.com/Ardhur">Ardhur</a> with
-              <a href="https://picocss.com/">pico</a>
-            </footer>
           </div>
         </div>
       </section>
     </main>
+    <footer class="container">
+      designed by <a href="https://github.com/Ardhur">Ardhur</a> with
+      <a href="https://picocss.com/">pico</a>
+    </footer>
   </body>
 </html>
